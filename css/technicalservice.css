@@ -1,0 +1,179 @@
+
+/*内容区*/
+.main{margin-bottom: 70px;}
+
+/*tab*/
+
+.tablist{text-align: center;position: relative;margin: 0px auto;}
+.tablist ul{padding: 0px;list-style: none;}
+.tablist ul li{margin: 0px;float: left;margin-bottom: 70px;}
+.tablist ul li a{border: 1px solid #ddd; display: inline-block; border-radius: 5px; width: 120px; font-size: 14px; height: 40px;line-height: 40px;color: #000;margin: 0px 10px;}
+.tablist ul li a:hover{background-color: #01A686;color: #fff;border-radius: 5px;}
+.tablist ul li a.active{background-color: #01A686;color: #fff;border-radius: 5px;}
+/*tab选中公共样式*/
+.active {background-color: #01A686;color: #fff;border-radius: 5px;}
+
+/*content*/
+/*.content_list{margin-bottom: 100px;}*/
+
+
+/*tab内容切换*/
+.content_tab{clear: both;}
+
+/*资料下载*/
+.content_detail .download{
+	margin: 28px auto 20px;
+    border: 1px dashed #D8D8D8;
+    padding: 0 60px;
+    border-radius: 20px;
+}
+.download .solution_title{
+	margin-top: -20px;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    background: rgba(0,0,0,0);
+    z-index: 3;
+}
+.solution_title h2{
+	font-size: 20px;
+    width: auto;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 0 40px;
+    margin-top: -15px;
+}
+
+.list_detail ul{padding: 0px;}
+.list_detail ul li{margin: 0px;list-style: none;clear: both;line-height: 28px;height: 28px;margin: 40px 0px;}
+.list_detail ul li .left_detail{float: left;width: 900px;}
+.list_detail ul li .right_detail{float: right;margin-top: 4px;}
+.left_detail span{display: inline-block;color: #4d4d4d;font-size: 14px;}
+.right_detail span{display: inline-block;color: #999;font-size: 14px;}
+.left_detail .left_img{width: 28px;height: 28px;position: absolute;}
+.left_detail .left_img img{width: 100%;height: 100%;}
+.right_detail .right_img{width: 20px;height: 20px;position: absolute;}
+.right_detail .right_img img{width: 100%;height: 100%;}
+.left_detail .left_content{padding-left: 50px;}
+.right_content{padding-left: 40px;}
+.right_detail{line-height: 20px;}
+
+/*安装教程*/
+ .course_list{margin: 0px -18px;}
+.course_list dl{float: left;height: 250px;width: 376px;overflow: hidden;position: relative;margin: 18px 18px;}
+.course_list dl dd{
+	margin: 0px;
+	text-align: center;
+    width: 100%;
+    background: url(../images/ddBg1px.png) repeat;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    height: 100%;
+	opacity: 0;
+	transition: all 1s ease 0;
+	}
+.course_list a:hover dd{opacity: 1;}
+.course_list a:hover dt div{display: none;}
+.course_list dl dt{height: 250px;width: 376px;}
+.course_list dl dt div{background: url(../images/ddBg1px.png) repeat; height: 45px;text-align: center;position: absolute;bottom: 0px;width: 100%;}
+.course_list dl dt div p{color: #fff;font-size: 14px;}
+.course_list dl dt img{height: 100%;width: 100%;}
+.course_introduce{padding: 15px 30px;}
+.course_introduce h2{
+	color: #fff;
+	font-size: 14px;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.course_introduce p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.bg{height: 46px;text-align: center;width: 46px;margin: 0px auto;}
+.bg img{width: 100%;height: 100%;}
+
+/*弹窗*/
+.mask {
+    background: url(../images/bannerBg1px.png) repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.popBox{
+	width: 950px;
+    height: 620px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    text-align: center;
+    margin-top: -310px;
+    margin-left: -475px;
+    z-index: 1001;
+    display: none;
+}
+.playvideo_title .popClose{
+	position: absolute;
+    top: 12.5px;
+    right: 0px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/popDelete01.png) no-repeat;
+}
+.playvideo_title{width: 850px;margin: 0px auto;position: relative;height: 50px;line-height: 50px;}
+.playvideo_title h2{color: #333;font-size: 18px;text-align: left;}
+.playvideo_start{width: 850px;height: 486px;margin:0px auto;border-radius: 5px;border: 1px solid #ddd;margin-top: 30px;}
+.playvideo_start video{width: 100%;height: 100%;}
+
+/*FAQ*/
+.FAQ_list ul{margin: 0px;}
+.FAQ_list ul li{padding: 0px;list-style: none;clear: both;}
+.FAQ_list ul li a{display: inline-block;width: 100%;background-color: #F6FCFA;height: 50px;}
+.FAQ_list .left_details{float: left;}
+.FAQ_list .right_details{float: right;padding-right: 30px;}
+.right_details .bg_img{height: 50px;width: 22px;}
+/*.right_details .bg_img{background: url(../images/serviceImg02.png) no-repeat right center;}*/
+/*切换显示隐藏背景图片*/
+.bg_noactive{background: url(../images/serviceImg02.png) no-repeat 50% 50%;}
+.bg_active{background: url(../images/serviceImg03.png) no-repeat 50% 50%;}
+
+.left_details {height: 50px;line-height: 50px;}
+.left_details .title{padding-left: 70px;}
+.left_details span{position: absolute;display: inline-block;height: 50px;line-height: 50px;color: #333;font-size: 14px;}
+.left_details .left_img{width: 50px;background-color: #F3F9F9;text-align: center;}
+.left_details .left_img img{height: 12px;width: 12px;margin-top: 19px;}
+.FAQ_content{clear: both;}
+.FAQ_content dl{position: relative;margin: 0px;}
+.FAQ_content dl dt{color: #f2b449;background-color: #F3F9F9; margin: 0px;float: left;width: 50px;text-align: center;vertical-align: middle;}
+.FAQ_content dl dd{padding-left: 30px;background-color: #F9FDFE;padding-right: 50px;}
+.FAQ_content dl dd p {
+    margin-top: 0;
+}
+.pageList{
+    padding-bottom: 70px;
+}
+.course .pageList{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/*位置*/
+.floatBox{padding-right:22px;}

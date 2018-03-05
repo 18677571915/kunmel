@@ -1,0 +1,40 @@
+
+/*内容区*/
+.main{margin-bottom: 70px;}
+
+/*tab*/
+
+.tablist{text-align: center;position: relative;margin: 0px auto;}
+.tablist ul{padding: 0px;list-style: none;}
+.tablist ul li{margin: 0px;float: left;margin-bottom: 70px;}
+.tablist ul li a{border: 1px solid #ddd; display: inline-block; border-radius: 5px; width: 120px; font-size: 14px; height: 40px;line-height: 40px;color: #000;margin: 0px 10px;}
+.tablist ul li a:hover{background-color: #01A686;color: #fff;border-radius: 5px;}
+.tablist ul li a.active{background-color: #01A686;color: #fff;border-radius: 5px;}
+/*tab选中公共样式*/
+.active {background-color: #01A686;color: #fff;border-radius: 5px;}
+
+/*tab解决方案列表*/
+.solution_list{clear: both;}
+.solutionList{padding-top: 60px;}
+.solutionLeft,.solutionRight{height: 350px;clear: both;margin: 50px 0px;}
+.solutionImg{float: right;width: 600px;}
+.solutionRight .solutionImg{float: left;}
+.solutionRight .solutionInformation{float: right;background-color: rgba(242,180,73,0.03);width: 600px;height: 350px;}
+.solutionInformation>div{padding-left: 30px;padding-top: 40px;}
+.solutionImg img{width: 100%;height: 100%;}
+.solutionInformation h2{font-size: 16px;    margin-bottom: 35px;font-weight: 500;    margin-top: 9px;}
+.solutionInformation h2 a{color: #333;}
+.solutionInformation h2 a:hover{color: #00a686;}
+.solutionInformation p{font-size: 14px;margin-bottom: 10px;line-height: 21px; color: #666;margin-top: 9px;display: -webkit-box; -webkit-line-clamp: 2;overflow: hidden; -webkit-box-orient: vertical; word-break: break-all;}
+.solutionInformation a.more{letter-spacing: 0.6px; margin-right: 40px; text-align: center; border:1px solid #ddd; font-size: 12px;color: #666;float: right;line-height: 38px; height: 38px;border-radius: 5px;margin-top: 45px;width: 120px;}
+.solutionInformation a.more:hover{background-color: #01A686;color:#fff;}
+.solutionList li{margin-bottom: 28px;    overflow: hidden;}
+.solutionInformation p a{color:#666;}
+
+/*置顶*/
+.floatBox{
+    right: 0px;
+    position: relative;
+}
+/*分页*/
+#pager{margin-top: 75px;}

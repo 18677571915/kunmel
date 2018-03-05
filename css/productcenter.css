@@ -1,0 +1,57 @@
+
+/*内容区*/
+.main{margin-bottom: 70px;}
+
+/*tab*/
+
+.tablist{text-align: center;position: relative;margin: 0px auto;}
+.tablist ul{padding: 0px;list-style: none;}
+.tablist ul li{margin: 0px;float: left;margin-bottom: 65px;}
+.tablist ul li a{border: 1px solid #ddd; display: inline-block; border-radius: 5px; width: 120px; font-size: 14px; height: 40px;line-height: 40px;color: #000;margin: 0px 10px;}
+.tablist ul li a:hover{background-color: #01A686;color: #fff;border-radius: 5px;}
+.tablist ul li a.actived{background-color: #01A686;color: #fff;}
+/*tab选中公共样式*/
+.actived {background-color: #01A686;color: #fff;}
+
+/*tab产品中心列表*/
+.content_list{margin-bottom: 100px;}
+.product_list{clear: both;}
+.product_top{height: 350px;background-color: #F5FBF9;width: 380px;}
+.product_top img{width: 100%;height: 100%;}
+.list_detail{margin: 0px -15px;}
+.list_detail ul{padding: 0px;}
+.list_detail ul li{
+    list-style: none;margin: 0px;float: left;width: 380px;height: 460px;margin: 0px 15px;margin-bottom: 30px;}
+
+.list_detail ul li:hover{
+    box-shadow:0px 0px 30px #ddd ;
+    }
+
+.product_introduce{padding: 0px 20px;border: 1px solid #ddd;}
+.product_introduce h2{
+	font-size: 16px;
+	color: #333;
+	font-weight: 500;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;}
+.product_introduce p{
+	font-size: 14px;
+	color: #666;
+	line-height: 25px;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;}
+
+    /*置顶*/
+.floatBox{
+    right: 0px;
+    position: relative;
+}
+.pageList{
+    padding-top: 65px;
+}

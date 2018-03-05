@@ -1,0 +1,45 @@
+.main{margin-bottom: 100px;}
+
+/*tab*/
+
+.tablist{text-align: center;position: relative;margin: 0px auto;}
+.tablist ul{padding: 0px;list-style: none;}
+.tablist ul li{margin: 0px;float: left;margin-bottom: 50px;}
+.tablist ul li a{border: 1px solid #ddd; display: inline-block; border-radius: 5px; width: 120px; font-size: 14px; height: 40px;line-height: 40px;color: #000;margin: 0px 10px;}
+.tablist ul li a:hover{background-color: #01A686;color: #fff;border-radius: 5px;}
+.tablist ul li a.active{background-color: #01A686;color: #fff;border-radius: 5px;}
+/*tab选中公共样式*/
+.active {background-color: #01A686;color: #fff;border-radius: 5px;}
+
+
+/*搜索无结果*/
+.result{clear: both;margin-bottom: 100px;}
+.result_detail h2{font-size: 24px;color: #333;font-weight: 500;margin-bottom: 30px;}
+.result_detail p{text-align: center;color: #333;font-size: 18px;}
+.result_detail .result_img{width: 497px;height: 297px;position: relative;margin: 0px auto;margin-top: 150px;margin-bottom: 50px;}
+.result_detail .result_img img{width: 100%;height: 100%;}
+
+
+/*搜索有结果*/
+.result_content ul{padding: 0px;}
+.result_content ul li{margin: 0px;list-style: none;padding-bottom: 60px;}
+.result_content h2{font-size: 16px;color: #333;padding-top: 20px;}
+.result_content ul li p a{
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0.6px;
+	line-height: 30px;
+	margin: 25px 0px;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    text-align: left;
+}
+.result_content .detail_href span{font-size: 12px;color: #666;display: inline-block;height: 15px;line-height: 15px;}
+.detail_href .see:hover{color: #01A686;}
+.detail_href .time{float: left;}
+.detail_href .see{float: right;}
+.detail_href .time i{padding-right: 20px;}
+.detail_href .see i{padding-left: 5px;}

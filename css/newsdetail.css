@@ -1,0 +1,8 @@
+.main{margin-bottom: 100px;}
+
+    /*置顶*/
+.floatBox{
+	bottom: -40px;
+    right: 0px;
+    position: relative;
+}

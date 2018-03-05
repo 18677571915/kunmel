@@ -1,0 +1,135 @@
+
+/*内容区*/
+.main{margin-bottom: 100px;}
+
+
+/*产品详情*/
+
+.productWrap {height: 700px;margin-top: 30px;}
+.productPicL {
+  height: 560px;
+  width: 612px;
+  overflow: hidden;
+  background: #f9f9f9;
+  margin-bottom: 20px;
+}
+.productPicL img {
+  width: 100%;
+  height: 100%;
+}
+.productPicS {
+  width: 612px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.productPicS ul li {
+  overflow: hidden;
+  cursor: pointer;
+      border: #ddd solid 1px;
+      width: 110px;
+      margin-right: 20px;
+      height: 100px;
+      float: left;
+}
+.productPicS ul li img {
+  display: block;
+  max-width: 100%;
+}
+.productPicS ul li.active {
+  border: #ddd solid 1px;
+}
+.productPicS ul li.active img {
+  display: block;
+}
+.productPicS .directionBtn {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  z-index: 2;
+  width: 26px;
+  height: 44px;
+  top: 28px;
+}
+.productLeft{margin-bottom: 30px;float: left;position: relative; z-index: 5;}
+.productPicS .directionBtn.prev{left: 0;}
+.productPicS .directionBtn.next{right: 0;}
+.productPicS ul li img{width: 100%;height: 100%;}
+.tempWrap{overflow: inherit!important;}
+.productPicS .directionBtn.prev{ background-color: rgba(142,147,154,0.2);}
+.productPicS .directionBtn.prev:hover { background-color: rgba(0,166,134,0.5);}
+.productPicS .directionBtn.next{ background-color: rgba(142,147,154,0.2);}
+.productPicS .directionBtn.next:hover { background-color: rgba(0,166,134,0.5);}
+.slidesAll .slidesjs-previous:hover { background: url(../images/painterLeftOn.png) center no-repeat; }
+.slidesAll .slidesjs-next:hover { background: url(../images/painterRightOn.png) center no-repeat; }
+
+/*右侧信息*/
+.productRight{padding-left: 715px;padding-right: 20px;position: relative;}
+.productRight p {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    word-break: break-all;font-size: 12px; letter-spacing: 1.1px;color: #666;line-height: 12px;}
+.productRight h2{font-size: 16px;font-weight: 500;color: #333;overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;}
+
+.productRight .other_colour h2{font-weight: 500;font-size: 14px;color: #333;}
+.other_colour .colour_tab ul{padding: 0px;}
+.other_colour .colour_tab ul li{margin: 0px;list-style: none;float: left;height: 40px;width: 122px;border-radius: 5px;line-height: 40px;border:1px solid #ddd;text-align: center;margin-right: 10px;margin-bottom: 10px;cursor: pointer;}
+.other_colour .colour_tab ul li span{color: #333;font-size: 12px;display: inline-block;
+    width: 122px;
+    height: 40px;
+    overflow: hidden;}
+.other_colour .colour_tab ul li img{height: 40px;width: 40px;float: right;display: none;}
+/*产品*/
+
+.detailContainer {
+    margin: 80px auto 80px;
+    border: 1px dashed #D8D8D8;
+    padding: 0 45px;
+    border-radius: 20px;
+}
+.detailContainer .solution_title{
+	margin-top: -20px;
+	text-align: center;
+    width: auto;
+    margin: 0 auto;
+    background: rgba(0,0,0,0);
+    z-index: 3;
+}
+.detailContainer .solution_title h2{
+      font-size: 20px;
+    width: auto;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 0 40px;
+    margin-top: -15px;
+}
+
+/*tab选中公共样式*/
+.actived {background-color: #f3d3a0;color: #fff;}
+/*tab*/
+
+.tablist{text-align: center;position: relative;margin: 0px auto;height: 80px;background-color: #f5f5f5;}
+.tablist ul{padding: 0px;list-style: none;}
+.tablist ul li{margin: 0px;float: left;margin-bottom: 50px;}
+.tablist ul li a{display: inline-block; border-radius: 5px; width: 277px; font-size: 16px; height: 80px;line-height: 80px;color: #000;}
+.tablist ul li a:hover{background-color: #f3d3a0;border-radius: 5px;}
+
+
+/*产品分类*/
+.product_category{clear: both;}
+.category_detail{padding-bottom: 50px;}
+.richtext_right{padding: 10px 0px; margin: 0px auto;width:1108px;height: 400px;background: url(../images/product_bg.png) repeat;}
+.richtext_left{padding: 10px 0px;margin: 0px auto;width:1108px;height: 400px;}
+
+/*富文本*/
+.text,.image{float: left;height: 400px;width: 554px;}

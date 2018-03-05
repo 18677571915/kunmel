@@ -1,0 +1,27 @@
+/*轮播样式Begin*/
+#slide {position: relative;overflow: hidden;}
+#slide .page {width: 100%;position: relative;}
+#slide .page a {display: block;width: 100%;overflow: hidden;background-repeat: no-repeat;background-position: 50% 0;}
+#slide .slidesjs-pagination {z-index: 101;position: absolute;left: 88%;bottom: 12%;/*margin: 0px 0px 0px -55px;*/padding: 0;list-style: none;}
+#slide .slidesjs-pagination li {float: left;margin: 0 1px;margin-left: 5px;margin-right: 5px;}
+#slide .slidesjs-pagination li a {border-radius: 5px;padding: 0 5px; color: #fff;overflow: hidden;text-indent: 9999px;background-repeat: no-repeat;background-color: #85C3C0;font-size: 14px;}	
+#slide .slidesjs-pagination li a:hover {background-color: #00A686;opacity: 0.3;}	
+#slide .slidesjs-pagination li a.active {background-color: #00A686;}
+#slide a.slidesjs-next{width: 40px;height: 70px;background: url(../images/sildeLeft.png);position: absolute;top: 50%;left: 90px;z-index: 999;}
+#slide a.slidesjs-previous{width: 40px;height: 70px;background: url(../images/sildeRight.png);position: absolute;top: 50%;right: 90px;z-index: 999;}
+#slide a.slidesjs-previous:hover{background: url(../images/sildeRight_bg.png);}
+#slide a.slidesjs-next:hover{background: url(../images/sildeLeft_bg.png)}
+.indexMain{background-color: transparent;}
+.pageContent{width: 508px;height: 123px;background: url(../images/bg_indexBannerContent.png) repeat center center;position: absolute;left: 219px;bottom: 121px;}
+.pageContent h2{margin: 17px 0px 0px 25px;font-size: 28px;font-weight: bold;color: #f4f9fb;letter-spacing: 1.4px;height: 37px;overflow: hidden;}
+.pageContent p{margin: 12px 0px 0px 25px;font-size: 28px;color: #f4f9fb;letter-spacing: 1.3px;height: 37px;overflow: hidden;}
+
+.head{height: 110px;}
+
+/*
+ * 底部样式
+ */
+.foot .container{height: 60px;}
+.foot{background: rgba(0,0,0,0.1);height: 60px;width: 100%;position: absolute;left: 0;bottom: 0px;z-index: 100;text-align: center;}
+.copyright{margin: 0;color: #333;font-size: 14px;line-height: 60px;height: 60px;overflow: hidden;letter-spacing: .6px;}
+

@@ -1,0 +1,49 @@
+
+/*内容区*/
+.main{margin-bottom: 100px;}
+
+/*解决方案详情Top*/
+.solutionList{padding-top: 60px;}
+.solution{height: 350px;clear: both;margin: 50px 0px;}
+.solutionImg{float: right;width: 600px;}
+.solutionInformation{float: left;position: relative;background: #f6f6f6;width: 600px;height: 350px;}
+.solution .solutionImg{float: left;}
+.solution .solutionInformation{float: right;background: #f6f6f6;width: 600px;}
+.solutionInformation>div{padding-left: 30px;padding-top: 15px;}
+.solutionImg img{width: 100%;height: 100%;}
+.solutionInformation h2{font-size: 16px;    margin-bottom: 24px;font-weight: 500;    margin-top: 15px;}
+.solutionInformation h2 a{color: #333;}
+.solutionInformation h2 a:hover{color: #00a686;}
+.solutionInformation p{font-size: 14px;    line-height: 17px; color: #666;margin-top: 9px;display: -webkit-box; -webkit-line-clamp: 2;overflow: hidden; -webkit-box-orient: vertical; word-break: break-all;}
+.solutionInformation a.more_img{display: inline-block; margin-right: 12px;text-align: center;height: 100px;margin-top: 20px;width: 170px;}
+.solutionInformation a.more_img img{width: 100%;height: 100%;}
+.solutionList li{margin-bottom: 28px;overflow: hidden;}
+.solutionInformation p a{color:#666;}
+
+/*方案详情*/
+
+.detailContainer {
+    margin: 28px auto 80px;
+    border: 1px dashed #D8D8D8;
+    padding: 0 36px;
+    border-radius: 20px;
+}
+.detailContainer .solution_title{
+	margin-top: -20px;
+	text-align: center;
+    width: auto;
+    margin: 0 auto;
+    background: rgba(0,0,0,0);
+    z-index: 3;
+}
+.detailContainer .solution_title h2{
+	    font-size: 20px;
+    width: auto;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 0 40px;
+    margin-top: -15px;
+}
